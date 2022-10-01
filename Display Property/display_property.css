@@ -1,0 +1,46 @@
+/* align-items & justify-content */
+
+#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(255, 249, 249);
+    display: flex; /*strectched the ninjas */
+    align-items: center; /* unstretched the ninjas*/
+    justify-content: flex-start; /* this repositions the ninjas - can be applied to parent to affect children*/
+}
+
+#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: lightgrey;
+    display: flex; /*strectched the ninjas */
+    align-items: center; /* unstretched the ninjas*/
+    justify-content: center; /* this repositions the ninjas - can be applied to parent to affect children*/
+}
+
+#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: lightgrey;
+    display: flex; /*strectched the ninjas */
+    align-items: center; /* unstretched the ninjas*/
+    justify-content: flex-end; /* this repositions the ninjas - can be applied to parent to affect children*/
+}
+
+#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: lightgrey;
+    display: flex; /*strectched the ninjas */
+    align-items: center; /* unstretched the ninjas*/
+    justify-content: space-between; /* this repositions the ninjas - can be applied to parent to affect children*/
+}
+
+#dojo {
+    width: 400px;
+    height: 200px;
+    background-color: lightgrey;
+    display: flex; /*strectched the ninjas */
+    align-items: center; /* unstretched the ninjas*/
+    justify-content: space-around; /* this repositions the ninjas - can be applied to parent to affect children*/
+}
